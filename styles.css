@@ -3,25 +3,49 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #e0f7fa; /* Light blue background */
 }
 
 /* Header styles */
 header {
-    background-color: #333;
+    background-color: #007bb5; /* Deep blue */
     color: white;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
 }
 
-h1 {
-    margin: 0;
+/* Main content styles */
+main {
+    margin: 20px;
+    background-image: url('https://bradentongulfislands.com/wp-content/uploads/Anna-Maria_Sandbar_Restaurant_SJHP9JbY84-NHbp-Vl_uDPt18q0ABlZBh_rgb_l-scaled.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+}
+
+/* Section styles */
+section {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Image styles */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 /* Navigation menu styles */
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
 nav ul li {
@@ -32,6 +56,7 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
 nav ul li a:hover {
@@ -40,48 +65,11 @@ nav ul li a:hover {
 
 /* Footer styles */
 footer {
-    background-color: #333;
+    background-color: #007bb5;
     color: white;
     text-align: center;
     padding: 10px;
     position: fixed;
     width: 100%;
     bottom: 0;
-}
-
-/* Styling for images */
-img {
-    width: 100%;
-    height: auto;
-}
-
-/* Form styling */
-form {
-    background-color: #fff;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 5px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-input, select, button {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-button {
-    background-color: #333;
-    color: white;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #555;
 }
